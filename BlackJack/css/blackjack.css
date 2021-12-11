@@ -1,0 +1,96 @@
+body {
+  background-image: url("../img/casinoBackground.png");
+  background-size: cover;
+  background-color: darkgreen;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+p {
+  height: 5px;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+/*change to class*/
+#sum-el,
+#dealer-sum-el {
+  display: inline-block;
+}
+
+.gameText {
+  display: none;
+}
+
+button {
+  background: goldenrod;
+  color: #016f32;
+  width: 15%;
+  padding: 5px 0px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+button:active {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+button:not(:first-of-type) {
+  display: none;
+  margin-top: 6px;
+}
+
+.card-el {
+  display: inline-block;
+  width: 3.5em;
+  height: 5.5em;
+  border: 1px solid #666;
+  border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -khtml-border-radius: 0.3em;
+  padding: 0.25em;
+  margin: 0.5em;
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  position: relative;
+  background-color: #fff;
+  -moz-box-shadow: 0.2em 0.2em 0.5em #333;
+  -webkit-box-shadow: 0.2em 0.2em 0.5em #333;
+  box-shadow: 0.2em 0.2em 0.5em #333;
+  color: #000;
+}
+
+.red {
+  color: #f00;
+}
+
+span {
+  display: block;
+}
+
+.top {
+  font-size: 0.5em;
+  text-align: left;
+}
+.bottom {
+  font-size: 0.5em;
+  text-align: right;
+}

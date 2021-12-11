@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="css/blackjack.css" />
+    <script type="text/javascript" src="js/blackjack.js"></script>
+  </head>
+
+  <body>
+    <h1>Blackjack</h1>
+    <p id="messege-el">want to play a round?</p>
+    <p class="gameText">House Cards:</p>
+    <div id="dealer-card-container"></div>
+    <p class="gameText">House Sum:</p>
+    <p id="dealer-sum-el"></p>
+    <br />
+    <p class="gameText">Cards:</p>
+    <div id="card-container"></div>
+    <p class="gameText">Sum:</p>
+    <p id="sum-el"></p>
+    <br />
+    <button onclick="startGame()">Deal</button>
+    <button onclick="hit()">Hit</button>
+    <button onclick="double()">Double</button>
+    <button onclick="stand()">Stand</button>
+    <p id="player-el"></p>
+  </body>
+</html>
